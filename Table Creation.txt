@@ -1,0 +1,11 @@
+create table client(
+    client_uid varchar2(10) not null,
+    client_pass varchar2(20) not null,
+    client_fname varchar2(20),
+    client_lname varchar2(20),
+    client_email varchar2(20),
+    client_phone varchar2(20),
+    client_district varchar2(20),
+    client_subdist varchar2(20),
+    client_village varchar2(20)
+);
